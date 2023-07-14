@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@400&display=swap"
+    />
+  </head>
+  <style type="text/css">
+    A {
+     text-decoration: none; 
+     color: white;
+    } 
+    A:hover { 
+     color: white;
+    } 
+    input[type='number'] {
+         -moz-appearance:textfield;
+     }
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+     }
+   </style>
+  <body>
+    <div class="slide-169-1">
+      <div class="chat" id="chatVisible">
+        <div class="pages">
+          <textarea rows="20" cols="45" id="chatArea" readonly=""></textarea>
+        </div>
+        <div class="typeChat"><input type="text" name="text" id="chatInpt" class="inputChat" disabled></div>
+      </div>
+      <div id="openControl">+</div>
+      <div id="control">
+        <div id="hideControl">X</div>
+        <div id="headlineControl">Control [00:00s]</div><hr>
+        <div class="inline">
+          <span id="removeMode"></span>
+          <div id="average">IN DEVELOPMENT</div>
+          <!-- <button id="modeN">N</button>
+          <button id="modeF">Fast</button>
+          <button id="enableCam">Cam</button>
+          <button id="stopP" style="display:none;">Stop</button>
+          <button id="captchaLag">Lag</button>
+          <button id="chatGen" style="display:none;">Chat</button> -->
+        </div><hr>
+        <div id="goodCaptcha">Процент верных капч: 0%</div> 
+        <div id="average">Средний ввод: 0.000s</div>
+        <div id="averageFirstSymb">Средний ввод первого символа: 0.000s</div>
+        <!-- <div id="changeKey">Изменить кнопку для открытия капчи</div> -->
+      </div>
+      <div class="time">
+        <div class="month">8 august</div>
+        <div class="hours">23:00</div>
+        <div class="played">played <span class="playedGreen">7 min</span></div>
+      </div>
+      <div id="record">New record <br><span id="recordS">2.01s</span></div>
+    </div>
+      <div class="group-parent" style="display: none;">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <div class="group-item">
+            <input type="text" name="text" id="megasuperbebra" autocomplete="off" disabled>	
+          </div>
+        </div>
+        <img class="frame-child" alt="" src="public/background.png" />
+
+        <div class="rectangle-group">
+          <div class="group-inner"></div>
+          <img class="icon" alt="" src="" />
+        </div>
+        <div class="rectangle-container">
+          <div class="rectangle-div"></div>
+          <img class="icon1" alt="" src="" />
+        </div>
+        <div class="group-div">
+          <div class="group-child1"></div>
+          <img class="icon2" alt="" src="" />
+        </div>
+        <div class="rectangle-parent1">
+          <div class="group-child2"></div>
+          <img class="icon3" alt="" src="" />
+        </div>
+        <div class="rectangle-parent2">
+          <div class="group-child3"></div>
+          <img class="icon3 test" alt="" src="" />
+        </div>
+        <div class="div">Введите код с картинки :</div>
+        <div class="backspace">Backspace Закрыть</div>
+        <div class="div1">Для ввода используйте клавиатуру</div>
+      </div>
+    </div>
+    <div class="rights"><a href='https://vk.com/kizn_scripts'>original author josip(FOR RODINA BY PAVA)</a></div>
+    <script src="index.js"></script>
+  </body>
+</html>
