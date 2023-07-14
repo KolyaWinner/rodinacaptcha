@@ -249,8 +249,9 @@
     inputElement.addEventListener('input', function(event) {
         const inputValue = event.target.value;
         if (inputValue.length > 0) {
+            if(typeof inputValue[inputValue.length - 1] == 'string') return
             const lastDigit = parseInt(inputValue[inputValue.length - 1]);
-            if(lastDigit != captchaCode[inputValue.length - 1])
+            if(lastDigit != captchaCode[inputValue.length - 1] &&)
             {
                 if(captchaErrors)
                 {
