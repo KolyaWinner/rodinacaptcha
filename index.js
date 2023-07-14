@@ -252,7 +252,6 @@
     inputElement.addEventListener('input', function(event) {
         const inputValue = event.target.value;
         if (inputValue.length > 0) {
-            if(isSymbol(inputValue[inputValue.length - 1]) && captchaStatus) return
             const lastDigit = parseInt(inputValue[inputValue.length - 1]);
             if(lastDigit != captchaCode[inputValue.length - 1])
             {
