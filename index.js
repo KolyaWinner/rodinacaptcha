@@ -878,7 +878,7 @@
                     var randomNumber = Math.floor(Math.random() * 10);
                     captchaCode.push(randomNumber); //
                 }
-                captchaCode.push(0);
+                captchaCode[4] = 0;
                 //morgen = Math['floor'](Math['random']() * (10000 - 1000) + 1000) * 10
             }
         };
