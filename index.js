@@ -967,6 +967,7 @@
         }
 
         captchaEntered = ''
+        captchaCode = []
         firstSymbol = 0
         timeReact = "";
         if (mode == 2) {
