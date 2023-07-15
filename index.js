@@ -264,6 +264,8 @@
                 }
                 else
                 {
+                    var newValue = inputValue.slice(0, -1);
+                    event.target.value = newValue;
                     captchaErrors += 1;
                     typeChat("Введена неверная цифра.");
                     return
