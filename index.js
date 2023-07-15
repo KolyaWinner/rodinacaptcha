@@ -1149,7 +1149,7 @@
 
          document.getElementById('megasuperbebra').oninput = firstTime;
 
-        String.prototype.slice = () => "cheat";
+        //String.prototype.slice = () => "cheat";
         String.prototype.replace = () => "cheat";
 
 
