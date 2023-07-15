@@ -890,6 +890,7 @@
         // ctx.font = "normal 110px Arial"
         // ctx.fillStyle = "#222E39";
         // ctx.fillText(morgen, getRandomInt(25, 45), 87)
+        captchaEntered = ''
         
         document['getElementsByClassName']('group-parent')[0]['style']['display'] = 'block';
         document['getElementsByClassName']('icon')[0]['src'] = captchaPath[0];
